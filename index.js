@@ -1,6 +1,6 @@
 import 'regenerator-runtime/runtime'
 import * as tf from '@tensorflow/tfjs';
-import {TextData} from './data';
+import { TextData } from './data';
 import * as model from './model';
 import {onTextGenerationBegin, onTextGenerationChar, onTrainBatchEnd, onTrainBegin, onTrainEpochEnd, setUpUI} from './ui';
 
