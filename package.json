@@ -19,7 +19,8 @@
     "gen": "babel-node gen_node.js",
     "link-local": "yalc link",
     "test": "babel-node run_tests.js",
-    "train": "babel-node train_node.js"
+    "train": "babel-node train_node.js",
+    "start": "cross-env NODE_ENV=development parcel index.html --no-hmr --open"
   },
   "devDependencies": {
     "@tensorflow/tfjs-node": "^2.6.0",
